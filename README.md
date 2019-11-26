@@ -13,3 +13,9 @@ copied into your contest's repo and committed. `gen.sh` may be changed freely
 if needed.
 
 License: CC0
+
+## Installation
+
+### OS X
+
+The scripts rely on `realpath` from GNU Core Utilites (`brew install coreutils`) and the `-A` option in bash’s `declare`, available in Bash 4 (`brew install bash`).
